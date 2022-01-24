@@ -6,11 +6,396 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- custom-css-style-sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/d64052140c.js" crossorigin="anonymous"></script>
+    <!-- bootstrap-style-sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>bangladesh
-    </h1>
+    <header>
+        <!-- navigation-start -->
+        <nav class="navbar container navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Chittagong Convention Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <ul></ul>
+                </span>
+            </div>
+        </nav>
+        <!-- navigation-end -->
+
+        <!-- image-slider-start -->
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+        <!-- asdfasdfasfasdfasdfasdfasdfads -->
+
+        <div id="carouselExampleCaptions" class="carousel slide pt-3" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner01.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-blok">
+                        <h1>Your Perfect Upscale Event Venue <br> next event</h1>
+                        <p>Infuse your celebration with the warmth and luxury of Asia Hotel & Resorts, a perfect venue
+                            for weddings.</p>
+                        <button class="btn btn-warning"><a class="button" target="blank"
+                                href="https://bdwedding.com/">About more</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner02.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1>The Venue of Choice for Show <br> next event</h1>
+                        <p>A wide and vast view with the green environment, ICCB is the best place for Wedding,
+                            Reception and Holud night. </p>
+                        <button class="btn btn-warning"><a class="button" target="blank"
+                                href="https://bdwedding.com/">About
+                                more</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner03.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                        <h1>WEDDINGS & BANQUETS<br> next event</h1>
+                        <p>Celebrate your special day or event with fine food, friends and family all set against one
+                            of the most beautiful backdrops in the world.</p>
+                        <button class="btn btn-warning"><a class="button" target="blank"
+                                href="https://bdwedding.com/">About more</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- image-slider-end -->
+    </header>
+    <main>
+        <!-- package-section01-start -->
+        <section class="container pt-5">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card border-0 shadow-sm p-3 mb-5 bg-body rounded">
+                        <div class="card-body">
+                            <h3 class="card-title">$300</h3>
+                            <h3 class="card-title">Business fair</h3>
+                            <p>For most businesses event like book fair, craft fair.</p>
+                            <div class="pb-3">
+                                <span><i class="fas fa-check-circle "><span class="ps-2">limited space
+                                            access</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Secuirty
+                                            facility </i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">event
+                                            support</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Decoration
+                                            design</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">below as
+                                            atural</i></span>
+                            </div>
+                            <div class="d-flex justify-content-center ">
+                                <a href="#" class="btn btn-primary rounded-pill px-5">
+                                    Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card border-0 shadow-sm p-3 mb-5 bg-body rounded">
+                        <div class="card-body card-style">
+                            <h3 class="card-title">$500</h3>
+                            <h3 class="card-title">Wedding basic</h3>
+                            <p>For most businesses event like book fair, craft fair.</p>
+                            <div class="pb-3">
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Full space
+                                            access</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Food
+                                            arrangement</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">mangement
+                                            support</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Decoration
+                                            design</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Billed as shift</i></span>
+                            </div>
+                            <div class="d-flex justify-content-center ">
+                                <a href="#" class="btn btn-primary rounded-pill px-5">
+                                    Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card bg-info $border-radius-lg: .3rem shadow-sm p-3 mb-5 rounded">
+                        <div class="card-body">
+                            <h3 class="card-title">$800</h3>
+                            <h3 class="card-title">Wedding plus</h3>
+                            <p>For most businesses event like book fair, craft fair.</p>
+                            <div class="pb-3">
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Full space
+                                            access</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Dedicated
+                                            team</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">Buffet food</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">premium
+                                            Decoration</i></span><br>
+                                <span><i class="fas fa-check-circle pe-3"><span class="ps-2">pay as plan</i></span>
+                            </div>
+                            <div class="d-flex justify-content-center ">
+                                <a href="#" class="btn btn-primary rounded-pill px-5">
+                                    Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card border-0 shadow-sm p-3 mb-5 bg-body rounded">
+                        <div class="card-body">
+                            <h3 class="card-title">$1200</h3>
+                            <h3 class="card-title">Wedding event</h3>
+                            <p>For most businesses event like book fair, craft fair.</p>
+                            <div class="pb-3">
+                                <span><i class="fas fa-check-circle"><span class="ps-2">Full space access</i></span><br>
+                                <span><i class="fas fa-check-circle"><span class="ps-2">Dedicated team</i></span><br>
+                                <span><i class="fas fa-check-circle"><span class="ps-2">Buffet food</i></span><br>
+                                <span><i class="fas fa-check-circle"><span class="ps-2">premium
+                                            Decoration</i></span><br>
+                                <span><i class="fas fa-check-circle"><span class="ps-2">pay as plan</i></span>
+                            </div>
+                            <div class="d-flex justify-content-center ">
+                                <a href="#" class="btn btn-primary rounded-pill px-5">
+                                    Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- package-section01-end -->
+
+        <!-- clients-fedback-section-start -->
+        <section>
+            <div class="container">
+                <h1 class="text-center py-5">Happy Clients says</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                    <div class="col">
+                        <div class=" card border-0 shadow-sm p-3 mb-2 bg-body rounded">
+                            <div class="card-body">
+                                <p class="text-center">Slate helps you see how many more days you need goal for the
+                                    month and year many more days you need goal for the..</p>
+                                <div class="d-flex justify-content-center"><img src="images/person1.png"
+                                        class="img-fluid" alt="...">
+                                </div>
+                                <p class="text-center pt-2"><strong>Jone Drake</strong><br>
+                                    <small>Banker</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 shadow-sm p-3 mb-5 bg-body rounded">
+                            <div class="card-body">
+                                <p class="text-center">Slate helps you see how many more days you need goal for the
+                                    month and year many more days you need goal for the.</p>
+                                <div class="d-flex justify-content-center"><img src="images/person2.png"
+                                        class="img-fluid" alt="...">
+                                </div>
+                                <p class="text-center pt-2"><strong>Jone Drake</strong><br>
+                                    <small>Banker</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 shadow-sm p-3 mb-5 bg-body rounded">
+                            <div class="card-body">
+                                <p class="text-center">Slate helps you see how many more days you need goal for the
+                                    month and year many more days you need goal for the.</p>
+                                <div class="d-flex justify-content-center"><img src="images/person3.png"
+                                        class="img-fluid" alt="...">
+                                </div>
+                                <p class="text-center pt-2"><strong>Jone Drake</strong><br>
+                                    <small>Banker</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- clients-fedback-section-end -->
+
+        <!-- Accordtion-section-start -->
+        <section class="py-5">
+            <h1 class="text-center pb-5">Frequently Asked Questions</h1>
+            <div class="container">
+                <div class=" d-flex justify-content-center align-items-center row g-2">
+                    <div class="col-lg-7">
+                        <div>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            1. What should I wear? Is there a dress code?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Sample Answer: “The dress code for our wedding is semi-formal/cocktail
+                                            attire. Ladies should wear cocktail dresses, and the gentlemen should wear a
+                                            suit and tie or a sports coat.”
+                                            Tip: Wedding attire can be tricky, to avoid confusion in addition to the
+                                            dress code, let the guests know specifically what they should wear, for
+                                            example, a suit and tie, tux, formal gown, or floor-length dress.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            2. What will the weather be like this time of year?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Tip: Let your out-of-town guests know the general weather conditions for
+                                            your wedding’s location. Advise them to bring a jacket, umbrella, etc.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            3. What happens after the ceremony?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            “After the ceremony, the bridal party will be taking pictures nearby for
+                                            around an hour. Guests can head straight to the reception hall where we will
+                                            be serving finger foods and beverages.”
+                                            Tip: It’s important to let your guests know what to do in-between the
+                                            ceremony and reception. If the guests need to spend a few hours on their own
+                                            before the reception, let them know of fun things to do in the area.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div>
+                            <img src="images/faq.jpg" class="img-fluid" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Accordion-section-end -->
+    </main>
+
+    <footer>
+        <!-- toast-popup-window-start -->
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="images/iron-man.jpg" class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is me Toast.
+            </div>
+        </div>
+        <!-- toast-popup-window-end -->
+
+        <!-- main-footer-section-start -->
+        <div class="footer">
+            <div>
+                <small>© 2020 bike. All rights reserved</small>
+            </div>
+            <div class="">
+                <h5 class="">that the app</h5>
+                <a target="blank" href="https://play.google.com/store/apps/details?id=com.ea.game.nfs14_row"><img
+                        class="pb-2" src="images/google-play.png" alt=""><br></a>
+                <a target="blank" href="https://www.apple.com/shop/buy-iphone"><img src="images/apple-play.png"
+                        alt=""></a>
+            </div>
+        </div>
+        <!-- main-footer-section-end -->
+    </footer>
+
+
+    <!-- toast-javascript -->
+    <script>
+        window.onload = (e) => {
+            let myToast = document.querySelector('.toast');
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
+        }
+    </script>
+
+    <!-- bootstrap-script-sheet -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
